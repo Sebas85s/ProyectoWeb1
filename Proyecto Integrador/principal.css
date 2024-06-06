@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+}
+a {
+    color: inherit;
+    text-decoration: none; /* Para quitar el subrayado si también lo deseas */
+}
+header{
+    display: flex;
+    background-color:#EDEDED;
+    height:90px;
+    box-shadow: 0px 3px 8px #000000;
+}
+figure{
+    margin: 0px;
+}
+figure img{
+    width: 75px;
+    margin: 8px 0px 0px 40px;
+}
+nav{
+    display: flex;
+    margin-left: 750px;
+  
+}
+nav div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px 28px 0px 28px;
+}
+nav img{
+    width: 35px;
+}
+.Visitanos img{
+    width: 25px;
+}
+.Notificaciones img{
+    width: 33px;
+}
+nav h1{
+    margin: 8px 0px 0px 0px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    text-shadow: 1px 1px 4px #0000006e;
+}
+nav h1:hover{
+    cursor: pointer;
+    text-shadow: 1px 1px 4px #ffffff;
+}
+.contenedorPrincipal{
+    margin: 80px;
+    display: flex;
+}
+.btnsPrincipales{
+    display: flex;
+    margin: 25px 0px 0px 15%;
+}
+/* DATOS ARRENDATARIO */
+#dataArrendatario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px 20px 45px 20px;
+    padding: 25px;
+    width: 20%;
+    background-color: #efefef;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px #000000;
+}
+#dataArrendatario h1{
+    padding-bottom: 10px;
+    width: 250px;
+    text-align: center;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    color: #7a7a7a;
+    border-bottom: 2px solid #8c8686;
+}
+#dataArrendatario button{
+    margin-top: 20px;
+    padding: 4px;
+    font-family: 'Inter';
+    font-size: 15px;
+    background-color: #9e9e9e;
+    color: #e0e0e0;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 1px 5px #000000;
+}
+#dataArrendatario button:hover{
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #cecdcd;
+    box-shadow: 0px 1px 5px #ffffff;
+}
+/* .................................. */
+
+/* BOTONES PRINCIPALES */
+#btnMantenimientos{
+    margin: 0px ;
+}
+#btnMantenimientos button{
+    background-color:  #A41C80;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 1px 4px #000000;
+    border: none;
+}
+#btnMantenimientos button:hover{
+    background-color: #bb2192;
+    cursor: pointer;
+    box-shadow: 0px 2px 3px #000000;
+}
+#btnMantenimientos button img{
+    width: 200px;
+    height: 200px;
+}
+#btnMantenimientos p{
+    text-align: center;
+    font-family: 'Inter';
+    font-weight: 800;
+    font-size: 24px;
+    text-shadow: 0px 1px 2px #000000;
+}
+
+/* --------                                   -------- */
+#btnSolicitudes{
+    margin-left: 35%;
+}
+#btnSolicitudes button img{
+    width: 200px;
+    height: 200px;
+}
+#btnSolicitudes p{
+    text-align: center;
+    font-family: 'Inter';
+    font-weight: 800;
+    font-size: 24px;
+    text-shadow: 0px 1px 2px #000000;
+}
+#btnSolicitudes button{
+    background-color: #F4B912;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 1px 4px #000000;
+    border: none;
+}
+#btnSolicitudes button:hover{
+    background-color: #ffc527;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px #000000;
+}
+#btnSolicitudes button img{
+    width: 200px;
+    height: 200px;
+}
+#btnSolicitudes p{
+    text-align: center;
+    font-family: 'Inter';
+    font-weight: 800;
+    font-size: 24px;
+    text-shadow: 0px -1px 2px #000000;
+}
+
+

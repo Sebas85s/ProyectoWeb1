@@ -1,0 +1,103 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header, footer {
+    flex-shrink: 0;
+}
+#logoSolicitudes {
+    display: flex;
+    justify-content: end;
+    margin: 30px;
+}
+#logoSolicitudes img {
+    width: 35%;
+    height: 108px;
+}
+.bntNuevaSolicitud {
+    margin-left: 50px;
+}
+.bntNuevaSolicitud button {
+    box-shadow: 0px 1px 4px rgb(0, 0, 0);
+    border-radius: 25px;
+    border: 2px solid #1472C9;
+    background: #2c95f8;
+    padding: 10px;
+    width: 195px;
+    text-align: center;
+    font-family: 'Inter';
+    font-weight: 900;
+    font-size: 15px;
+    color: #FFFFFF;   
+}
+.bntNuevaSolicitud button:hover {
+    background: #6aa6de;
+    cursor: pointer;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+.content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contenedorSolicitudes {
+    width: 32%;
+    background-color: rgb(213, 213, 213);
+    border: 1px solid #000000;
+    box-shadow: 0px 1px 4px #000000;
+    padding: 10px 0px 5px 20px ;
+    border-radius: 10px;
+}
+
+#contenedorSolicitudes h1 {
+    font-family: 'Inter';
+    font-size: 25px;
+    margin: 0px;
+}
+
+#contenedorSolicitudes h2 {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 25px;
+    margin: 0px;
+}
+
+#contenedorSolicitudes h3 {
+    font-family: 'Inter';
+    font-weight: 900;
+    font-size: 20px;
+    margin: 0px;
+}
+
+#textoYestado {
+    display: flex;
+    width: 640px;
+    margin: 15px 0px 15px 0px;
+}
+
+#textoYestado h2 {
+    width: 350px;
+}
+
+#textoYestado button {
+    margin-top: 15px;
+    box-shadow: 0px 1px 4px #ffffff;
+    text-shadow: 0px 1px 2px #000000;
+    border-radius: 20px;
+    border: none;
+    background: #31d109;
+    width: 110px;
+    height: 30px;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+}

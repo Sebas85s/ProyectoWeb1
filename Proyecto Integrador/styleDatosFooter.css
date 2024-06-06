@@ -1,0 +1,65 @@
+a {
+    color: inherit;
+    text-decoration: none; /* Para quitar el subrayado si también lo deseas */
+}
+
+/* *******************PAGINA SERVICIOS************* */
+.contenedorPrincipal{
+    margin: 50px 0px 0px 50px;
+    display: flex;
+}
+#imgSolicitudes{
+    margin: 0px;
+}
+#imgSolicitudes img{
+    width: 73%;
+}
+.bloque1{
+    display: flex;
+}
+.bloque1 img{
+    width: 200px;
+    height: 100%;
+    margin: 0px 40px 0px 40px;
+}
+.bloque2{
+    display: flex;
+    justify-content: end;
+}
+.bloque2 img{
+    width: 200px;
+    height: 100%;
+    margin: 0px 40px 0px 40px;
+}
+
+/* *******************PAGINA CONTACTO************* */
+
+#imgContacto{
+    margin-bottom: 0px;
+}
+#imgContacto img{
+    width: 81%;
+}
+#bloque3{
+    margin: 50px 80px 212px 0px;
+}
+#bloque3 img{
+    width: 100%;
+}
+
+/* *******************PAGINA NOSOTROS************* */
+
+#imgNosotros{
+    margin: 0px;
+}
+#imgNosotros img{
+    width: 80%;
+}
+#bloque4{
+    margin: 0px 40px 180px 0px;
+    width: 95%;
+}
+#bloque4 p{
+    text-align: center;
+    font-size: 30px;
+}

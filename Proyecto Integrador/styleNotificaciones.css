@@ -1,0 +1,39 @@
+#NotificacionBox {
+    position: relative;
+    left: 1100px;
+    bottom: 135px;
+    width: 220px;
+    background-color:#EDEDED;
+    border: 1px solid #9605be;
+    border-top: none;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0px 1px 6px rgb(0, 0, 0);
+}
+#NotificacionBox::backdrop{
+    background-color: #00000000;
+    border: none;
+}
+
+.notification-item {
+    padding: 15px 20px 5px 20px;
+    border-bottom: 1px solid #A41C80;
+}
+
+.notification-item:last-child {
+    border-bottom: none;
+}
+
+.notification-item:hover {
+    background-color: #ffffff;
+}
+
+.notification-item p {
+    margin: 5px 0px 10px 0px ;
+}
+
+.timestamp {
+    font-size: 12px;
+    color: #999;
+    margin: 0px;
+}

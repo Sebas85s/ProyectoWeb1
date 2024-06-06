@@ -1,0 +1,189 @@
+body{
+    margin: 0px;
+}
+header p{
+    margin: 20px 0px 0px 35px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 92px;
+    color: #000000;
+    text-shadow: 1px 1px 3px #000000;
+}
+figure{
+    margin: 50px 70px 70px 200px;
+    padding: 0px;
+}
+figure img{
+    width: 400px;
+}
+.ContenedorMedio{
+    display: flex;
+}
+.ContenedorUnicioSesion{
+    background: #D9D9D9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+    height: 380px;
+    margin-left:10%;
+    padding: 8px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0px 2px 5px #000000;
+}
+#Usuario{
+    display: flex
+}
+#Usuario img{
+    position: absolute;
+    width: 50px;
+    height: 55px;
+    margin: 0px;
+    top: 22%;
+    right: 40%
+}
+#Contraseña{
+    display: flex;
+}
+#Contraseña img{
+    position: absolute;
+    width: 50px;
+    height: 55px;
+    top: 38%;
+    right: 40%
+}
+input{
+    background-color: #3f3f3f00;
+    border: none;
+    border-bottom: solid 2px #313131;
+    font-size: 30px;
+    outline: none;
+    margin: 30px 10px 10px 10px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+input::placeholder{
+    text-align: center;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.47);
+}
+#boton_ingresar{
+    display: flex;
+    justify-content: center;
+}
+#boton_iniciar{
+    margin-top: 20px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 35px;
+    color: #FFFFFF;
+    border-radius: 20px;
+    border: none;
+    background: #A41C80;
+    padding: 9px 17.4px 6px 18.4px;
+    box-shadow: -1px 2px 8px #ffffff;
+}
+#boton_iniciar:hover{
+    cursor: pointer;
+    background: #cc239fd6;;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.781);
+    
+}
+#boton_registrar{
+    display: flex;
+    justify-content: center;
+}
+#boton_registrate{
+    margin-top: 20px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 35px;
+    color: #FFFFFF;
+    border-radius: 20px;
+    border: none;
+    background: #F4B912;;
+    padding: 9px 17.4px 6px 18.4px;
+    box-shadow: -1px 2px 8px #ffffff;
+}
+#boton_registrate:hover{
+    cursor: pointer;
+    background: #fec936;
+    text-shadow: 1px 1px 6px #00000071;
+}
+
+/* FORMULARIO */
+#registrarse{
+    border-radius: 25px;
+}
+#formulario{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter';
+    font-weight: 100;
+    font-size: 20px;
+    align-items: center;
+    margin-top: 0px;
+    padding: 0px;
+}
+#formulario h1{
+    margin-top: 0px;
+}
+#formulario input{
+    margin: 0px;
+    padding: 5px;
+    width: 70%;
+    border-bottom: solid 1px #3131315f;
+}
+#formulario ::placeholder{
+    font-size: 20px;
+    font-weight: 300
+}
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+#btnRegistrate{
+    margin-top: 30px;
+    border-radius: 15px;
+    background: #A41C80;
+    padding: 9px 0 6px 1px;
+    width: 200px;
+    font-family: 'Inter';
+    font-size: 25px;
+    color: #FFFFFF;
+    border: none;
+    box-shadow: 0px 1px 3px #000000;
+    text-shadow: 1px 1px 3px #939393b6;
+    padding: 4px;
+}
+
+/* FOOTER */
+footer{
+    background-color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    height: 45px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+footer img{
+    width: 35px;
+    padding: 7px;
+    margin: 0px 50px 0px 50px;
+}
+.youtube img{
+    width: 50px;
+}
+.tiktok img{
+    width: 30px;
+}
+footer img:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 4px #ffffff;
+}
+/* ----------------------- */

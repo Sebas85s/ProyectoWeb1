@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/images/Favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>INICIO</title>
+</head>
+<body>
+    <div id="ContenedorPrincipal">
+        <header>
+            <p>BIENVENIDO</p>
+        </header>
+        <div class="ContenedorMedio">
+            <figure>
+                <img src="assets/images/Logo.png" alt="">
+            </figure>
+
+            <div class="ContenedorUnicioSesion">
+
+                <form id="iniciar">
+                    <div id="Usuario">
+                        <img src="assets/images/Usuario.png" alt="">
+                        <input type="text" id="usuario_ingreso" placeholder="USUARIO" pattern="[A-Za-z]+" title="Solo letras" required><br>
+                    </div>
+            
+                    <div id="Contraseña">
+                        <img src="assets/images/Contraseña.png" alt="">
+                        <input type="password" id="contrasena_ingreso" placeholder="CONTRASEÑA" required><br>
+                    </div>
+                    
+                    <div id="boton_ingresar">
+                        <a href="principal.html"><button type="button" id="boton_iniciar">INICIAR SESION</button></a>
+                    </div>
+                    <div id="boton_registrar">
+                        <button type="button" id="boton_registrate">REGISTRATE</button>
+                    </div>
+
+                    <p id="mensaje_inicio" style="display: none;"></p>
+                </form>  
+        </div>
+    </div>
+    <dialog id="registrarse">
+        <form id="formulario">
+            <h1>CREAR CUENTA</h1>
+
+            <input type="text" id="nombre" placeholder="NOMBRE" pattern="[A-Za-z]+" title="Solo letras"  required>
+    
+            <input type="text" id="apellido" placeholder="APELLIDO"  required>
+    
+            <input type="number" id="documento" placeholder="DOCUMENTO IDENTIDAD" required>
+    
+            <input type="email" id="correo" placeholder="CORREO" required>
+
+            <input type="text" id="direccion" placeholder="DIRECCION INMUEBLE"  required>
+            
+            <input type="password" id="contrasena" placeholder="CONTRASEÑA" required>
+    
+            <input type="password" id="confirmarContrasena" placeholder="CONFIRMAR CONTRASEÑA" required>
+
+            <div id="btnRegistrar">
+                <button type="button" id="btnRegistrate">REGISTRATE</button>
+            </div>
+        </form>
+    </dialog>
+    <footer id="footer">
+        <div class="instagram">
+            <a href="https://www.instagram.com/cuadraporcuadra/?hl=es" target="_blank" rel="noopener noreferrer"><img src="assets/images/instagram.png" alt=""></a>
+        </div>
+
+        <div class="tiktok">
+            <a href="https://www.tiktok.com/@cuadraporcuadra" target="_blank" rel="noopener noreferrer"><img src="assets/images/tiktok.png" alt=""></a>
+        </div>
+
+        <div class="facebook">
+            <a href="https://www.facebook.com/cuadraporcuadra" target="_blank" rel="noopener noreferrer"><img src="assets/images/facebook.png" alt=""></a>
+        </div>
+
+        <div class="youtube">
+            <a href="https://www.youtube.com/@cuadraporcuadrainmobiliari1655" target="_blank" rel="noopener noreferrer"><img src="assets/images/youtube.png" alt=""></a>
+        </div>
+    </footer>
+
+    <script src="modal.js"></script>
+</body>
+</html>
